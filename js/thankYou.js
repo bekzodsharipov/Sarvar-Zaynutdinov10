@@ -12,6 +12,10 @@ async function sendFormData() {
   formData.append("sheetName", "Lead");
   formData.append("Ism", formDataObj.Ism);
   formData.append("Telefon raqam", formDataObj.TelefonRaqam);
+  formData.append("Lavozim", formDataObj.Lavozim);
+  formData.append("Faoliyat", formDataObj.Faoliyat);
+  formData.append("Seminar", formDataObj.Seminar);
+
   formData.append("Royhatdan o'tgan vaqti", formDataObj.SanaSoat);
 
   try {
